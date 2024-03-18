@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2023 VoltageOS
+     Copyright (C) 2023 SaiOS
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- VoltageOS maintainer -->
+    <!-- SaiOS maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="voltage_maintainer">Unofficial Maintainer</string>
+    <string name="Sai_maintainer">Unofficial Maintainer</string>
     
     <!-- VoltageOS device -->
     <string name="about_device_name">Device</string>
@@ -18,8 +18,8 @@
     <string name="selinux_status_enforcing">Enforcing</string>
 
     <!-- VoltageOS version -->
-    <string name="voltage_version">VoltageOS version</string>
-    <string name="voltage_version_default">Unknown</string>
+    <string name="Voltage_version">VoltageOS version</string>
+    <string name="Voltage_version_default">Unknown</string>
     <string name="build_date">Build date</string>
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
