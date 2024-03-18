@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SaiOS maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="Sai_maintainer">Unofficial Maintainer</string>
+    <string name="Sai_maintainer">Sai noob Maintainer</string>
     
     <!-- SaiOS device -->
     <string name="about_device_name">Device</string>
