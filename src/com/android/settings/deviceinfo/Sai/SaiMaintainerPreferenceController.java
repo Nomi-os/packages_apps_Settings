@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo.voltage;
+package com.android.settings.deviceinfo.sai;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,11 +25,11 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class VoltageMaintainerPreferenceController extends BasePreferenceController {
+public class SaiMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "VoltageMaintainerPreferenceController";
+    private static final String TAG = "SaiMaintainerPreferenceController";
 
-    public VoltageMaintainerPreferenceController(Context context, String key) {
+    public SaiMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -38,7 +38,7 @@ public class VoltageMaintainerPreferenceController extends BasePreferenceControl
     }
 
     public CharSequence getSummary() {
-        String maintainer = mContext.getResources().getString(R.string.voltage_maintainer);
+        String maintainer = mContext.getResources().getString(R.string.sai_maintainer);
         return maintainer;
     }
 }
