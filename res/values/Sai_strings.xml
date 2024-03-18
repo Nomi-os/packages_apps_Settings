@@ -8,7 +8,7 @@
     <string name="maintainer">Maintainer</string>
     <string name="Sai_maintainer">Unofficial Maintainer</string>
     
-    <!-- VoltageOS device -->
+    <!-- SaiOS device -->
     <string name="about_device_name">Device</string>
     
     <!-- SELinux Status -->
@@ -17,9 +17,9 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
-    <!-- VoltageOS version -->
-    <string name="Voltage_version">VoltageOS version</string>
-    <string name="Voltage_version_default">Unknown</string>
+    <!-- SaiOS version -->
+    <string name="Sai_version">SaiOS version</string>
+    <string name="Sai_version_default">Unknown</string>
     <string name="build_date">Build date</string>
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
