@@ -21,8 +21,8 @@
     settings:keywords="@string/keywords_android_version">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/voltage_logo_layout"
-        android:key="voltage_logo"
+        android:layout="@layout/Sai_logo_layout"
+        android:key="Sai_logo"
         android:selectable="false"/>
 
     <!-- Android version -->
@@ -34,15 +34,15 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- VoltageOS version -->
+    <!-- SaiOS version -->
     <Preference
-        android:key="voltage_version"
-        android:title="@string/voltage_version"
+        android:key="Sai_version"
+        android:title="@string/Dai_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.VoltageVersionPreferenceController"/>
 
-    <!-- VoltageOS Device -->
+    <!-- SaiOS Device -->
     <Preference
         android:key="about_device_name"
         android:title="@string/about_device_name"
@@ -50,13 +50,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
-    <!-- VoltageOS maintainer -->
+    <!-- SaiOS maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.voltage.VoltageMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.Sai.SaiMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
